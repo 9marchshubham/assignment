@@ -1,10 +1,13 @@
+*{
+	box-sizing: border-box;
+}
 div{
 	/*text-align: center;*/
 	/*align-content: center;*/
 	margin: auto;
 	padding: 30px;
 	border-style: solid;
-	/*box-sizing: content-box;*/
+	box-sizing: border-box;
 	line-height: 1.8;
 	background-color: #DCE517;
 	display: inline-block;
@@ -24,5 +27,33 @@ h1{
 	padding: 10px;
 }
 .fit{
-	align-content: left;
+	text-align: center;
+	float: left;
 }
+
+
+	/*.form label{
+		display: inline-block;
+		text-align: right;
+		float: left;
+	}*/
+
+	form input{
+		display: inline-block;
+		text-align: left;
+		float: right;
+	}
+	form textarea{
+		display: inline-block;
+		text-align: left;
+		float: right;
+	}
+	form select{
+		display: inline-block;
+		text-align: left;
+		float: right;
+	}
+	select{
+		width: 165px;
+
+	}
