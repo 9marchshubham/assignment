@@ -1,0 +1,28 @@
+div{
+	/*text-align: center;*/
+	/*align-content: center;*/
+	margin: auto;
+	padding: 30px;
+	border-style: solid;
+	/*box-sizing: content-box;*/
+	line-height: 1.8;
+	background-color: #DCE517;
+	display: inline-block;
+	/*width: 50%;*/
+	/*clear: both;*/
+	/*float: center;*/
+	/*position: absolute;*/
+	/*overflow: auto;*/
+}
+body{
+	text-align: center;
+	background-color: #2B80B9; 
+}
+h1{
+	background-color: #17E5DD ;
+	margin: auto;
+	padding: 10px;
+}
+.fit{
+	align-content: left;
+}
